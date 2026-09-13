@@ -32,16 +32,23 @@
    cd doc-code-drift
 
 2. Создать и активировать виртуальное окружение:
-   # На Mac/Linux:
+
+   * **На Mac / Linux:**
+   ```bash
    python3 -m venv .venv
    source .venv/bin/activate
+   ```
 
-   # На Windows (сmd):
+   * **На Windows (CMD):**
+   ```cmd
    python -m venv .venv
    .venv\Scripts\activate.bat
+   ```
 
 3. Установить все зависимости одной командой:
+   ```bash
    pip install -r requirements.txt
+   ```
 
 4. Скачать тестовый проект
    git clone https://github.com/spring-projects/spring-petclinic.git data/raw/spring-petclinic

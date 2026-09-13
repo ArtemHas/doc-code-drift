@@ -28,7 +28,7 @@
 ### 🚀 Инструкция по запуску:
 
 1. Склонировать репозиторий:
-   git clone <ссылка_на_ваш_репозиторий>
+   git clone <...>
    cd doc-code-drift
 
 2. Создать и активировать виртуальное окружение:
@@ -36,11 +36,13 @@
    python3 -m venv .venv
    source .venv/bin/activate
 
-   # На Windows:
+   # На Windows (сmd):
    python -m venv .venv
-   .venv\Scripts\activate
+   .venv\Scripts\activate.bat
 
 3. Установить все зависимости одной командой:
    pip install -r requirements.txt
 
-4. Готово! Запускайте любой модуль из папки src/
+4. Скачать тестовый проект
+   git clone https://github.com/spring-projects/spring-petclinic.git data/raw/spring-petclinic
+
